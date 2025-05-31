@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${archivo.variable} antialiased bg-white text-black`}>
+      <body className={`${archivo.variable} antialiased bg-dark-bg text-white`}>
         <Header/>
         <main>{children}</main>
       </body>

@@ -41,6 +41,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-dark-bg: #0d1117
 }
 
 
@@ -118,18 +119,20 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
-.center-row{
-@apply flex flex-row items-center justify-center
-}
-.center-col{
-@apply flex flex-col items-center justify-center
+.center-row {
+  @apply flex flex-row items-center justify-center
 }
 
-button{
+.center-col {
+  @apply flex flex-col items-center justify-center
+}
+
+button {
   @apply cursor-pointer
 }

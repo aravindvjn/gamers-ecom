@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <div
       className="h-screen center-col text-white text-center"
@@ -26,4 +26,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;
